@@ -1,0 +1,19 @@
+"*":
+  editor:
+    fontSize: 12
+    invisibles: {}
+  "exception-reporting":
+    userId: "c0809060-8a0c-cacd-d92a-2775a2e270a2"
+  welcome:
+    showOnStartup: false
+  core: {}
+  "vim-mode":
+    startInInsertMode: true
+  "autocomplete-plus": {}
+  minimap: {}
+  linter: {}
+  term2: {}
+  "symbols-tree-view":
+    autoToggle: true
+  "autocomplete-python":
+    useSnippets: "all"

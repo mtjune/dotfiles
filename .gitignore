@@ -1,11 +1,5 @@
 /_.vim/bundle/*
 !/_.vim/bundle/neobundle.vim
 
-/tmuxfiles/_.tmux/plugins/*
-!/tmuxfiles/_.tmux/plugins/tpm
-
-/_.emacs.d/*
-!/_.emacs.d/init.el
-!/_.emacs.d/conf
-!/_.emacs.d/elisp
-!/_.emacs.d/public_repos
+/d_tmux/_.tmux/plugins/*
+!/d_tmux/_.tmux/plugins/tpm

@@ -1,0 +1,3 @@
+[submodule "_.emacs.d"]
+	path = _.emacs.d
+	url = https://github.com/bbatsov/prelude.git
