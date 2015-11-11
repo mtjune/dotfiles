@@ -4,3 +4,6 @@
 [submodule "_.tmux/plugins/tpm"]
 	path = _.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "_.vim/bundle/neobundle.vim"]
+	path = _.vim/bundle/neobundle.vim
+	url = https://github.com/Shougo/neobundle.vim.git
