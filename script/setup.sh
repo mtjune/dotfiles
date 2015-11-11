@@ -32,7 +32,7 @@ link_dotfiles(){
 			rm $HOME/.$FILENAME
 			echo "$FILENAME is synbolic link. Removed."
 		else
-			mv -r $HOME/.$FILENAME $HOME/.dotfiles/refuge/$TODAY/
+			mv $HOME/.$FILENAME $HOME/.dotfiles/refuge/$TODAY/
 			echo "$FILENAME is not synbolic link. Moved to refuge."
 		fi
 	fi
