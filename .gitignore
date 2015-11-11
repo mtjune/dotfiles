@@ -1,5 +1,5 @@
 /_.vim/bundle/*
 !/_.vim/bundle/neobundle.vim
 
-/d_tmux/_.tmux/plugins/*
-!/d_tmux/_.tmux/plugins/tpm
+/_.tmux/plugins/*
+!/_.tmux/plugins/tpm

@@ -1,2 +1,2 @@
-/refuge/*
-!/refuge/.gitignore
+*
+!.gitignore
