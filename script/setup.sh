@@ -9,7 +9,7 @@ git submodule update --init
 ## dotfilesのリンクを張る
 
 # 主なdotfilesのリンク
-DOT_FILES=(zshenv vimrc tmux.conf vim atom gitignore_global)
+DOT_FILES=(zshenv vimrc emacs.d tmux.conf vim atom gitignore_global)
 
 if [ ! -d $HOME/.dotfiles/refuge ]; then
 	mkdir $HOME/.dotfiles/refuge
@@ -67,4 +67,4 @@ link_dotfiles tmux $HOME/.dotfiles/tmuxfiles/_.tmux
 
 
 # preludeへのリンクを張る
-link_dotfiles emacs.d $HOME/.dotfiles/prelude
+# link_dotfiles emacs.d $HOME/.dotfiles/prelude

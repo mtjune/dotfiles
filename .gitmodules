@@ -1,3 +1,6 @@
 [submodule "_.emacs.d"]
 	path = _.emacs.d
 	url = https://github.com/bbatsov/prelude.git
+[submodule "_.tmux/plugins/tpm"]
+	path = _.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
