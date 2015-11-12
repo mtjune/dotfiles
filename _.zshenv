@@ -2,6 +2,8 @@ export ZDOTDIR=$HOME/.dotfiles/d_zsh/d_zdot
 
 export ZSH_CUSTOM=$HOME/.dotfiles/d_zsh/oh-my-zsh.custom
 
+export TERM="xterm-256color"
+
 # OPAM configuration
 . ~/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
