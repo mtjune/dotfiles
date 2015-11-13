@@ -2,6 +2,8 @@
   editor:
     fontSize: 12
     invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
   "exception-reporting":
     userId: "c0809060-8a0c-cacd-d92a-2775a2e270a2"
   welcome:
