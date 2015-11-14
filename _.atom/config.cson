@@ -23,5 +23,4 @@
   "autocomplete-python":
     useSnippets: "all"
   "atom-beautify": {}
-  tabs:
-    usePreviewTabs: true
+  tabs: {}

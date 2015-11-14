@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 
 
@@ -54,17 +54,8 @@ do
 	link_dotfiles $file
 done
 
-# tmuxfilesへのリンクを貼る
-# link_dotfiles tmux $HOME/.dotfiles/tmuxfiles/_.tmux
 
-
-# vimfilesのリンク
-#if [ -e ~/.vim ]; then
-#	rm ~/.vim
-#fi
-
-#ln -s ~/.dotfiles/vimfiles ~/.vim
-
-
-# preludeへのリンクを張る
-# link_dotfiles emacs.d $HOME/.dotfiles/prelude
+# Atomのパッケージをインストール
+if type apm > /dev/null 2>&1 then
+	# TODO
+fi
