@@ -12,10 +12,14 @@
   "vim-mode":
     startInInsertMode: true
   "autocomplete-plus": {}
-  minimap: {}
+  minimap:
+    plugins:
+      pigments: true
+      "highlight-selected": true
   linter: {}
   term2: {}
   "symbols-tree-view":
     autoToggle: true
   "autocomplete-python":
     useSnippets: "all"
+  "atom-beautify": {}
