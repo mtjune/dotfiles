@@ -57,5 +57,5 @@ done
 
 # Atomのパッケージをインストール
 if type apm > /dev/null 2>&1 then
-	# TODO
+	apm stars --install
 fi

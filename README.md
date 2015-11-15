@@ -13,7 +13,7 @@ $ ./script/setup.sh
 or
 
 ```
-curl -fsSL https://raw.githubusercontent.com/mtjune/dotfiles/master/script/setup_easy.sh | sh
+curl -fsSL https://raw.githubusercontent.com/mtjune/dotfiles/master/script/installer.sh | sh
 ```
 
 Your original dotfiles (not symbolic link) take refuge to `~/.dotfiles/refuge/` date separately.
