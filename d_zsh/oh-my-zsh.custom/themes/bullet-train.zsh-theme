@@ -488,7 +488,8 @@ prompt_line_sep() {
 
 build_prompt() {
   RETVAL=$?
-  prompt_time
+  # 時間はいらないので消した
+  # prompt_time
   prompt_status
   prompt_context
   prompt_dir
