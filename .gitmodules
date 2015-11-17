@@ -7,6 +7,3 @@
 [submodule "d_zsh/oh-my-zsh"]
 	path = d_zsh/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule "oh-my-zsh.custom/plugins/zsh-completions"]
-	path = oh-my-zsh.custom/plugins/zsh-completions
-	url = https://github.com/zsh-users/zsh-completions
