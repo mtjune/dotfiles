@@ -33,3 +33,10 @@ alias tmls="tmux ls"
 alias tmrenamet="tmux rename -t"
 alias tmkillt="tmux kill-session -t"
 alias tmnew="tmux new-session -s"
+
+# alias for git
+alias gich="git checkout"
+alias gicom="git commit"
+alias gicomm="git commit -m"
+alias gipmaster="git push origin master"
+alias gipdevelop="git push origin develop"
