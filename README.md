@@ -26,4 +26,4 @@ This dotfiles use the following items as submodule.
 * neobundle.vim
 * tpm
 * oh-my-zsh
-* prelude
+* zsh-completions
