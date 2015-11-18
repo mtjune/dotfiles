@@ -32,4 +32,6 @@ source ~/.dotfiles/d_zsh/expath.zshrc
 
 ## load user .zshrc configuration file
 #
-[ -f ${HOME}/.zshrc.mine ] && source ${HOME}/.zshrc.mine
+if [ -f ${HOME}/.zshrc.mine ]; then
+  source ${HOME}/.zshrc.mine
+fi

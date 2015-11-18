@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.dotfiles/d_zsh/oh-my-zsh
-export ZSH_CUSTOM=$HOME/.dotfiles/d_zsh/oh-my-zsh.custom
+
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -42,13 +42,14 @@ ZSH_THEME="bullet-train"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+export ZSH_CUSTOM=$HOME/.dotfiles/d_zsh/oh-my-zsh.custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
+plugins=(git zsh-completions)
+autoload -U compinit && compinit
 # User configuration
 
 #export PATH="/Users/yukich/.pyenv/shims:/Users/yukich/.pyenv/bin:/Users/yukich/.opam/system/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/yukich/.nodebrew/current/bin"
