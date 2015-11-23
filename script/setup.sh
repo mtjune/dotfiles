@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-
 ## submoduleの読み込み
 git submodule update --init
 
@@ -29,22 +27,13 @@ link_dotfiles(){
 	FILENAME=${1}
 	if [ -e $HOME/.$FILENAME ]; then
 		if [ -L $HOME/.$FILENAME ]; then
-			rm $HOME/.$FILENAME
-			echo "$FILENAME is synbolic link. Removed."
+			rm $HOME/.$FILENAME && echo "$FILENAME is synbolic link. Removed"
 		else
-			mv $HOME/.$FILENAME $HOME/.dotfiles/refuge/$TODAY/
-			echo "$FILENAME is not synbolic link. Moved to refuge."
+			mv $HOME/.$FILENAME $HOME/.dotfiles/refuge/$TODAY/ && echo "$FILENAME is not synbolic link. Moved to refuge"
 		fi
 	fi
 
-	if [ $# -eq 1 ]; then
-		ln -s $HOME/.dotfiles/_.$FILENAME $HOME/.$FILENAME
-		echo "Made synbolic link $FILENAME."
-	else
-		FROMFILENAME=$2
-		ln -s $FROMFILENAME $HOME/.$FILENAME
-		echo "Made synbolic link $FILENAME from $FROMFILENAME"
-	fi
+	ln -s $HOME/.dotfiles/_.$FILENAME $HOME/.$FILENAME && echo "Made synbolic link $FILENAME"
 }
 
 
@@ -56,6 +45,6 @@ done
 
 
 # Atomのパッケージをインストール
-if type apm > /dev/null 2>&1 then
+if type apm >/dev/null 2>&1; then
 	apm stars --install
 fi

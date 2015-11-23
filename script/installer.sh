@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 # gitが使えるか確認
-if type git > /dev/null 2>&1 then
+if type git; then
 
   git clone https://github.com/mtjune/dotfiles.git ~/.dotfiles
   cd ~/.dotfiles && echo "moved $HOME/.dotfiles"
@@ -9,7 +9,8 @@ if type git > /dev/null 2>&1 then
 
 else
 
-  echo "git not found !"
+  echo "git not found!"
   echo "please install git"
+  exit 1
 
 fi
