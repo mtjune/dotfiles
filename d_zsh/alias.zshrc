@@ -32,7 +32,8 @@ alias tmat="tmux attach -t"
 alias tmls="tmux ls"
 alias tmrenamet="tmux rename -t"
 alias tmkillt="tmux kill-session -t"
-alias tmnew="tmux new-session -s"
+alias tmkillall="tmux kill-server"
+alias tmnews="tmux new-session -s"
 
 # alias for git
 alias gich="git checkout"
