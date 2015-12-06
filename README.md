@@ -7,7 +7,7 @@ Mtjune's dotfiles for zsh, vim, emacs, tmux and atom.
 ```
 $ git clone https://github.com/mtjune/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
-$ ./script/setup.sh
+$ bash script/setup.sh
 ```
 
 or
