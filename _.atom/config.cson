@@ -1,26 +1,33 @@
 "*":
+  "atom-beautify": {}
+  "autocomplete-plus": {}
+  "autocomplete-python":
+    useSnippets: "all"
+  core:
+    disabledPackages: [
+      "autocomplete-haskell"
+    ]
   editor:
-    fontSize: 12
+    fontFamily: "monoid"
+    fontSize: 10
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
+    softTabs: false
+    tabType: "hard"
   "exception-reporting":
     userId: "c0809060-8a0c-cacd-d92a-2775a2e270a2"
-  welcome:
-    showOnStartup: false
-  core: {}
-  "vim-mode":
-    startInInsertMode: true
-  "autocomplete-plus": {}
+  linter: {}
   minimap:
     plugins:
-      pigments: true
       "highlight-selected": true
-  linter: {}
-  term2: {}
+      pigments: true
   "symbols-tree-view":
     autoToggle: true
-  "autocomplete-python":
-    useSnippets: "all"
-  "atom-beautify": {}
   tabs: {}
+  term2: {}
+  term3: {}
+  "vim-mode":
+    startInInsertMode: true
+  welcome:
+    showOnStartup: false
